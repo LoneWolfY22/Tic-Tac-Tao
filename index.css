@@ -70,3 +70,13 @@ body{
 .hide{
   display: none;
 }
+
+@media (max-width: 550px) {
+  h1 {
+    font-size: 1.5rem; /* Reduce font size for smaller screens */
+  }
+
+  button {
+    margin-top: 20px; /* Keep button spacing consistent */
+  }
+}
